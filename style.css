@@ -1,0 +1,65 @@
+html{
+    background: linear-gradient(43deg,rgb(0, 255, 179) 0%,rgb(0, 255, 255) 10%,rgb(0, 119, 255));
+  
+}
+*{
+ padding: 0;
+}
+body{
+  display: flex;  
+justify-content: center;
+align-items: start;
+}
+.calculadora{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+.tela{
+    outline: none;
+    font-size: 50px;
+    text-align: end;
+    width:100%;
+    font-family: sans-serif, monospace;
+    font-weight: 600;
+    height: 70px;
+}
+.div-tela{
+    width: 99%;
+}
+.teclado{
+    display: flex;
+    flex-flow: wrap;
+
+}
+.button{
+    background: rgba(0, 0, 0, 0.26);
+    outline: none;
+    border: 1px solid rgba(110, 110, 110, 0.904);
+    font-size: 40px;
+    width: 25%;
+    height: 15vh;
+    color: white;
+ 
+}
+.button:active{
+    box-shadow: 0 0px 5px 1px;
+    filter: brightness(1.5);
+    color: yellow;
+    transform: scale(0.9);
+}
+.nome-cal{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif, monospace;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="nome-cal"><span>Calculadora</span></div>
+   <div class="div-tela"><input   maxlength="12" type="text" name="tela" class="tela" id="tela"></div>
+   <div class="teclado">
+    <button class="button" onclick="patams('(')">(</button>
+    <button class="button" onclick="patams(')')">)</button>
+    <button class="button" onclick="porcent()">%</button>
+    <button class="button" onclick="deletar()">AC</button>
+
+    <button class="button" onclick="patams(7)">7</button>
+    <button class="button" onclick="patams(8)">8</button>
+    <button class="button" onclick="patams(9)">9</button>
+    <button class="button" onclick="patams('/')">/</button>
+    
+    <button class="button" onclick="patams(4)">4</button>
+    <button class="button" onclick="patams(5)">5</button>
+    <button class="button" onclick="patams(6)">6</button>
+    <button class="button" onclick="patams('*')">*</button>
+    
+    <button class="button" onclick="patams(1)">1</button>
+    <button class="button" onclick="patams(2)">2</button>
+    <button class="button" onclick="patams(3)">3</button>
+    <button class="button" onclick="patams('-')">-</button>
+
+    <button class="button" onclick="patams(0)">0</button>
+    <button class="button" onclick="patams('.')">.</button>
+    <button class="button" onclick="calculo()">=</button>
+    <button class="button" onclick="patams('+')">+</button>
+
+    
+
+   </div>
+    </div>
+</body>
+</html>
